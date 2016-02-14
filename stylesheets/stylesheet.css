@@ -1,14 +1,18 @@
-body {
-  margin: 0;
-  padding: 0;
-  background: #151515 url("../images/bkg.png") 0 0;
-  color: #eaeaea;
-  font: 16px;
-  line-height: 1.5;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-}
+  body {
+    margin: 0;
+    padding: 0;
+    background: #151515 url("../images/bkg.png") 0 0;
+    color: #eaeaea;
+    font: 16px;
+    line-height: 1.5;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  }
 
-/* General & 'Reset' Stuff */
+  img {
+    margin: 2em 2em -18em 2em;
+    height: 20em;
+    width: 30em;
+  }
 
 .container {
   width: 90%;
@@ -213,13 +217,20 @@ hr {
   display: inline-block;
   width: 16px;
   height: 16px;
-  margin: 1px 8px 0 0;
+  margin: 2px 8px 0 0;
   float: left;
 }
 
 .btn-github .icon {
   opacity: 0.6;
   background: url("../images/blacktocat.png") 0 0 no-repeat;
+}
+
+.btn-npm .icon {
+  opacity: 0.6;
+  background: url("../images/npm.png") 0 0 no-repeat; /* 0 0 no-repeat; */
+  background-size: cover;
+  width: 41px;
 }
 
 /* Links
